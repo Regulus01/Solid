@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S", "S", "{9B7A508F-0F57-421F-8C0F-12410596E297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "S\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{0D234D55-72B5-48C3-B49A-B935D71D088A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "O", "O", "{CCDB80F0-67CB-4440-B280-BE5CC21A65B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L", "L", "{C47AC887-E5F3-47DF-9D99-1C100B5D7551}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "I", "I", "{FC1CE711-1A5E-4FCD-8DC1-5F66BAD0D713}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D", "D", "{A7E84764-1454-416A-9DD8-AEFE6EDF3C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "O\OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{A61D138A-F6E7-47BB-B791-C66C16928DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "L\LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{F64E8B73-FBC0-4DB6-A461-03627CC6DE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "I\InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{DAB3C447-542C-42BD-BEED-9862EA9E0870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "D\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{BD068AB4-8FFA-4068-8034-A8CE646EECCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D234D55-72B5-48C3-B49A-B935D71D088A} = {9B7A508F-0F57-421F-8C0F-12410596E297}
+		{A61D138A-F6E7-47BB-B791-C66C16928DA7} = {CCDB80F0-67CB-4440-B280-BE5CC21A65B7}
+		{F64E8B73-FBC0-4DB6-A461-03627CC6DE0A} = {C47AC887-E5F3-47DF-9D99-1C100B5D7551}
+		{DAB3C447-542C-42BD-BEED-9862EA9E0870} = {FC1CE711-1A5E-4FCD-8DC1-5F66BAD0D713}
+		{BD068AB4-8FFA-4068-8034-A8CE646EECCE} = {A7E84764-1454-416A-9DD8-AEFE6EDF3C66}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D234D55-72B5-48C3-B49A-B935D71D088A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D234D55-72B5-48C3-B49A-B935D71D088A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D234D55-72B5-48C3-B49A-B935D71D088A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D234D55-72B5-48C3-B49A-B935D71D088A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61D138A-F6E7-47BB-B791-C66C16928DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61D138A-F6E7-47BB-B791-C66C16928DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61D138A-F6E7-47BB-B791-C66C16928DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61D138A-F6E7-47BB-B791-C66C16928DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64E8B73-FBC0-4DB6-A461-03627CC6DE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64E8B73-FBC0-4DB6-A461-03627CC6DE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64E8B73-FBC0-4DB6-A461-03627CC6DE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64E8B73-FBC0-4DB6-A461-03627CC6DE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB3C447-542C-42BD-BEED-9862EA9E0870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB3C447-542C-42BD-BEED-9862EA9E0870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB3C447-542C-42BD-BEED-9862EA9E0870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB3C447-542C-42BD-BEED-9862EA9E0870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD068AB4-8FFA-4068-8034-A8CE646EECCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD068AB4-8FFA-4068-8034-A8CE646EECCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD068AB4-8FFA-4068-8034-A8CE646EECCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD068AB4-8FFA-4068-8034-A8CE646EECCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
